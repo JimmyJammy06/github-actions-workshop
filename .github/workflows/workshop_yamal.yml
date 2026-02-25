@@ -9,8 +9,8 @@ jobs:
   print-issue:
     runs-on: ubuntu-latest
     steps:
-      - name: "Display message"
+      - name: Display message
         run: |
           echo "The issue was titled: ${{ github.event.issue.title }}"
-          echo "The user that pushed the issue was: ${{ github.event.issue.actor}}"
+          echo "The user that pushed the issue was: ${{ github.event.issue.actor }}"
 
