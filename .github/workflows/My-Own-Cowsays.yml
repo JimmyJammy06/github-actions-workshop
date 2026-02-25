@@ -12,4 +12,4 @@ jobs:
       uses: mscoutermarsh/cowsays-action@master
       with:
         text: 'Magent Magent!'
-        color: 'black'
+        color: 'cyan'
