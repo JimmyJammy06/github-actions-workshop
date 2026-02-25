@@ -11,6 +11,6 @@ jobs:
     steps:
       - name: "Display message"
         run: |
-        echo "The issue was titled: ${{ github.event.issue.title }}"
-        echo "The issue was titled: ${{ github.event.issue.}}"
+          echo "The issue was titled: ${{ github.event.issue.title }}"
+          echo "The user that pushed the issue was: ${{ github.event.issue.actor}}"
 
