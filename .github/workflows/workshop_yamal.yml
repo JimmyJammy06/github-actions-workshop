@@ -1,0 +1,16 @@
+
+name: workshop_yamal
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  print-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Display message"
+        run: |
+        echo "The issue was titled: ${{ github.event.issue.title }}"
+        echo "The issue was titled: ${{ github.event.issue.}}"
+
